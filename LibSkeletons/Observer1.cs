@@ -11,7 +11,7 @@ namespace LibSkeletons
         public int perechis = 0;
         public void Update()
         {
-            
+            perechis++;
         }
     }
 }
