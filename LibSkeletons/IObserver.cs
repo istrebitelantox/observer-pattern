@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace LibSkeletons
 {
-    public class Observer2
+    public interface IObserver
     {
-        
+        int update();
     }
 }

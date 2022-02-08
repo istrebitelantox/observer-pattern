@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace LibSkeletons
 {
-    public class Observer1
+    public class ConcreteObserver : IObserver
     {
-        public int perechis = 0;
-        public void Update()
+        int count=0;
+        public int update()
         {
-            perechis++;
+            return count++;
         }
     }
 }
