@@ -19,10 +19,10 @@ namespace SolSkeleton
             subject.setState("Юрий");
             CounterInConsole(observers);
             subject.registerObserver(observers[1]);
-            subject.setState("Александр");
+            subject.setState("Павел");
             CounterInConsole(observers);
             subject.removeObserver(observers[1]);
-            subject.setState("Александр");
+            subject.setState("Павел");
             CounterInConsole(observers);
 
             Console.ReadKey();
