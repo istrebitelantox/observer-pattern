@@ -9,9 +9,13 @@ namespace LibSkeletons
     public class ConcreteObserver : IObserver
     {
         int count=0;
-        public int update()
+        public void update()
         {
-            return count++;
+           count++;
+        }
+        public int GetCounter()
+        {
+            return count;
         }
     }
 }

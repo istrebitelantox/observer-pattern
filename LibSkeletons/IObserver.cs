@@ -8,6 +8,6 @@ namespace LibSkeletons
 {
     public interface IObserver
     {
-        int update();
+        void update();
     }
 }

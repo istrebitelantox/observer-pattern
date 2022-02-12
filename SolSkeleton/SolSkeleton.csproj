@@ -48,5 +48,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LibSkeletons\LibSkeletons.csproj">
+      <Project>{b69b96e0-bad5-4810-b681-c7441c2c295b}</Project>
+      <Name>LibSkeletons</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
